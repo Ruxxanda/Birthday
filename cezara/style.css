@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #FF70A9;
+    color: #ffffff;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #FF70A9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section h1.text1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+section h1.an1 {
+    font-size: 150px;
+    font-weight: 900;
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+}
+
+section .imagini {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+section .imagini .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .imagini .left img {
+    width: 100%;
+    height: 145px;
+}
+
+section .imagini .right {
+    width: 50%;
+    height: 100%;
+}
+
+section .imagini .right img {
+    width: 100%;
+    height: 100%;
+}
+
+section.rux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+section.rux img.eu {
+    width: 50%;
+    height: 100%;
+}
+
+section.rux .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    width: 50%;
+    height: 100%;
+}
+
+section.rux .text h1.an2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+section.rux .text p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+section.axa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+section.axa img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+section.axa .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    width: 50%;
+    height: 100%;
+}
+
+section.axa .text h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+section.axa .text p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+section.axa .text.invers {
+    text-align: end;
+    align-items: end;
+}
